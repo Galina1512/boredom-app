@@ -1,0 +1,48 @@
+body{
+  background-image: url("./fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img{
+  width: 150px;
+}
+.header{
+  margin: 30px;
+  font-family: 'Libre Franklin', sans-serif;
+  text-shadow: 1px 1px 15px #eee021, 1px 1px black;
+color: red;
+}
+.advice{
+  font-family: 'Libre Franklin', sans-serif;
+  color: #64773f;
+}
+.calendar{
+  display: flex;
+}
+.btn{
+  border: none;
+  background: none;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 200px;
+  margin: auto;
+}
+.video{
+  overflow: hidden;
+  border-radius: 20px;
+/* border: 13px solid #64773f;
+box-shadow: inset 0px 0px 0px 4px rgb(236, 211, 64); */
+}
+
