@@ -9,12 +9,11 @@ function App(){
     const [isGreen, setIsGreen] = useState(true);
 
 
-    const changetext = async ()=>{
+    const changetext = async () => {
     const responce = await fetch('http://www.boredapi.com/api/activity/');
     const data = await responce.json();
     setState(data.activity);
     setIsGreen(!isGreen) 
-
 }
     useEffect(()=>{
         changetext();
@@ -32,6 +31,5 @@ return(
     </div>
     </div>
 )
-
 }
 export default App;
